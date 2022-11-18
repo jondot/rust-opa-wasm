@@ -181,7 +181,7 @@ jobs:
           override: true
 
       - name: Setup OPA
-        uses: open-policy-agent/setup-opa@v1
+        uses: open-policy-agent/setup-opa@v2
         with:
           version: latest
 
@@ -233,7 +233,7 @@ jobs:
           components: llvm-tools-preview
 
       - name: Setup OPA
-        uses: open-policy-agent/setup-opa@v1
+        uses: open-policy-agent/setup-opa@v2
         with:
           version: latest
 
